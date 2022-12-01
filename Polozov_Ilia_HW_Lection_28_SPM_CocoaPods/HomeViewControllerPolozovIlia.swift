@@ -26,15 +26,15 @@ public class HomeViewControllerPolozovIlia: UIViewController {
         view.addSubview(imageView)
         
         label.snp.makeConstraints{make in
-            make.centerY.equalToSuperview()
+            make.top.equalToSuperview().offset(20)
             make.trailing.equalToSuperview().offset(-32.0)
             make.leading.equalToSuperview().offset(32.0)
         }
         imageView.snp.makeConstraints{make in
-            make.centerY.equalTo(label)
-            make.trailing.equalToSuperview().offset(-32.0)
+            make.bottom.equalTo(label).offset(140)
             make.leading.equalToSuperview().offset(32.0)
-            make.width.height.equalTo(100)
+            make.width.equalTo(125)
+            make.height.equalTo(125)
         }
         
         view.backgroundColor = UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 1.0)
