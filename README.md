@@ -1,2 +1,1 @@
 # Polozov_Ilia_HW_Lection_28_SPM_CocoaPods
-# Polozov_Ilia_HW_Lection_28_SPM_CocoaPods
