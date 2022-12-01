@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Polozov_Ilia_HW_Lection_28_SPM_CocoaPods"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Test framework"
 
   spec.description  = <<-DESC
@@ -15,6 +15,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/ilpol/Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.git", :tag => "#{spec.version}" }
 
   spec.dependency 'SnapKit'
+  spec.dependency 'OtusHomework'
   spec.source_files  = "Polozov_Ilia_HW_Lection_28_SPM_CocoaPods/**/*.{swift,h,m}"
 
   spec.public_header_files = "Polozov_Ilia_HW_Lection_28_SPM_CocoaPods/**/*.{h}"
