@@ -13,6 +13,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/ilpol/Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.git", :tag => "#{spec.version}" }
+  spec.resources = "Polozov_Ilia_HW_Lection_28_SPM_CocoaPods/**/*."
 
   spec.dependency 'SnapKit'
   spec.dependency 'OtusHomework'
