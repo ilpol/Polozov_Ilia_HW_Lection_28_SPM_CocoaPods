@@ -10,11 +10,7 @@ import UIKit
 import SnapKit
 import OtusHomework
 
-public class HomeViewControllerPolozovIlia: UIViewController, HasOtusHomeworkView {
-    public var squareView: UIView?
-    
-    public var squareViewController: UIViewController?
-    
+public class HomeViewControllerPolozovIlia: UIViewController {
     
     public override func viewDidLoad() {
         var label = UILabel()
@@ -31,7 +27,16 @@ public class HomeViewControllerPolozovIlia: UIViewController, HasOtusHomeworkVie
         }
         
         view.backgroundColor = .green
-        squareView = view
     }
     
+}
+
+extension HomeViewControllerPolozovIlia: HasOtusHomeworkView {
+    public var squareView: UIView? {
+        return view
+    }
+    
+    public var squareViewController: UIViewController? {
+        return HomeViewControllerPolozovIlia()
+    }
 }
