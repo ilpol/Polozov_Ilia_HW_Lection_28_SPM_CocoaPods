@@ -18,10 +18,20 @@ public class HomeViewControllerPolozovIlia: UIViewController {
         label.textColor = .white
         label.numberOfLines = 0
         label.text = "Полозов Илья"
+        let currentBundle = Bundle(for: HomeViewControllerPolozovIlia.self)
+        let image = UIImage(named: "gpbIcon", in: currentBundle, with: .none)
+        let imageView = UIImageView(image: image!)
+        
         view.addSubview(label)
+        view.addSubview(imageView)
         
         label.snp.makeConstraints{make in
             make.centerY.equalToSuperview()
+            make.trailing.equalToSuperview().offset(-32.0)
+            make.leading.equalToSuperview().offset(32.0)
+        }
+        imageView.snp.makeConstraints{make in
+            make.centerY.equalTo(label)
             make.trailing.equalToSuperview().offset(-32.0)
             make.leading.equalToSuperview().offset(32.0)
         }

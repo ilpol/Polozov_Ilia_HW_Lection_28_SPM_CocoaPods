@@ -11,6 +11,7 @@
 		BB20C8622937424F007A722A /* Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.h in Headers */ = {isa = PBXBuildFile; fileRef = BB20C8612937424F007A722A /* Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB20C869293742F2007A722A /* HomeViewControllerPolozovIlia.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20C868293742F1007A722A /* HomeViewControllerPolozovIlia.swift */; };
 		BB20C86C293744F5007A722A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BB20C86B293744F5007A722A /* SnapKit */; };
+		BB7DACF129394E0C00B6F7DE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7DACF029394E0C00B6F7DE /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BB20C85E2937424F007A722A /* Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB20C8612937424F007A722A /* Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.h; sourceTree = "<group>"; };
 		BB20C868293742F1007A722A /* HomeViewControllerPolozovIlia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerPolozovIlia.swift; sourceTree = "<group>"; };
+		BB7DACF029394E0C00B6F7DE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				BB20C8612937424F007A722A /* Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.h */,
 				BB20C868293742F1007A722A /* HomeViewControllerPolozovIlia.swift */,
+				BB7DACF029394E0C00B6F7DE /* Media.xcassets */,
 			);
 			path = Polozov_Ilia_HW_Lection_28_SPM_CocoaPods;
 			sourceTree = "<group>";
@@ -76,7 +79,6 @@
 				66139397C9DB69782ECBDC6A /* Pods-Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.debug.xcconfig */,
 				13C4944964CB9D11DF4D14BB /* Pods-Polozov_Ilia_HW_Lection_28_SPM_CocoaPods.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -157,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB7DACF129394E0C00B6F7DE /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
