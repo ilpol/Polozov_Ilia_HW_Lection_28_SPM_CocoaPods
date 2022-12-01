@@ -34,6 +34,7 @@ public class HomeViewControllerPolozovIlia: UIViewController {
             make.centerY.equalTo(label)
             make.trailing.equalToSuperview().offset(-32.0)
             make.leading.equalToSuperview().offset(32.0)
+            make.width.height.equalTo(100)
         }
         
         view.backgroundColor = UIColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 1.0)
