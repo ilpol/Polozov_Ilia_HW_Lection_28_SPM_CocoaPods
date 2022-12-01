@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Polozov_Ilia_HW_Lection_28_SPM_CocoaPods"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Test framework"
 
   spec.description  = <<-DESC
