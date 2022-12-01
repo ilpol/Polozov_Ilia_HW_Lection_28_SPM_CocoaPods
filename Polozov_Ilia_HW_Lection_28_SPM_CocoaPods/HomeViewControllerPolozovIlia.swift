@@ -30,7 +30,7 @@ public class HomeViewControllerPolozovIlia: UIViewController, HasOtusHomeworkVie
             make.leading.equalToSuperview().offset(32.0)
         }
         
-        view.backgroundColor = .orange
+        view.backgroundColor = .green
         squareView = view
     }
     
